@@ -1,0 +1,27 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+    gap: 20px;
+    padding: 50px;
+    
+  }
+  
+  .card {
+    width: 256px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 256px;
+    height: 351px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  

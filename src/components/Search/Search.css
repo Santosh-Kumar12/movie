@@ -1,0 +1,40 @@
+section {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  form div {
+    width: 100%;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #aaa;
+  }
+  
+  .error {
+    text-align: center;
+    
+    font-size: 14px;
+  }
+  
+  .error p {
+    margin: 0;
+    color: red;
+  }
+  
