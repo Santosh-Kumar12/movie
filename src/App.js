@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
 const App = () => {
   return (
-   <BrowserRouter basename='/'>
+   <BrowserRouter  basename='/'>
     <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/movies/:id' element={<SingleMovie/>}/>
